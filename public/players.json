@@ -8,7 +8,7 @@
     "rating": 9.5,
     "batting_style": "Left-Hand Bat",
     "bowling_style": "Slow Left-Arm Orthodox",
-    "price": "$120,000"
+    "price": "120000"
   },
   {
     "player_img": "https://i.ibb.co.com/MxvXdPtd/mustafizur.webp",
@@ -18,7 +18,7 @@
     "rating": 8.7,
     "batting_style": "Left-Hand Bat",
     "bowling_style": "Left-Arm Fast-Medium",
-    "price": "$90,000"
+    "price": "90000"
   },
   {
     "player_img": "https://i.ibb.co.com/rr4cP8G/tamim.webp",
@@ -28,7 +28,7 @@
     "rating": 8.9,
     "batting_style": "Left-Hand Bat",
     "bowling_style": "Right-Arm Offbreak",
-    "price": "$100,000"
+    "price": "100000"
   },
   {
     "player_img": "https://i.ibb.co.com/RkmHFmx3/mashrafe.webp",
@@ -38,7 +38,7 @@
     "rating": 8.2,
     "batting_style": "Right-Hand Bat",
     "bowling_style": "Right-Arm Medium-Fast",
-    "price": "$80,000"
+    "price": "80000"
   },
   {
     "player_img": "https://i.ibb.co.com/LD7jSyYr/Andre-Russell.jpg",
@@ -48,7 +48,7 @@
     "rating": 9.6,
     "batting_style": "Right-Hand Bat",
     "bowling_style": "Right-Arm Fast",
-    "price": "$150,000"
+    "price": "150000"
   },
   {
     "player_img": "https://i.ibb.co.com/ZRW8VGmY/Chris-Gayle.jpg",
@@ -58,7 +58,7 @@
     "rating": 9.1,
     "batting_style": "Left-Hand Bat",
     "bowling_style": "Right-Arm Offbreak",
-    "price": "$140,000"
+    "price": "140000"
   },
   {
     "player_img": "https://i.ibb.co.com/zVdpXHvX/AB-de-Villiers.webp",
@@ -68,7 +68,7 @@
     "rating": 9.7,
     "batting_style": "Right-Hand Bat",
     "bowling_style": "Right-Arm Medium",
-    "price": "$160,000"
+    "price": "160000"
   },
   {
     "player_img": "https://i.ibb.co.com/PGbtDDSw/Kieron-Pollard.jpg",
@@ -78,7 +78,7 @@
     "rating": 9.0,
     "batting_style": "Right-Hand Bat",
     "bowling_style": "Right-Arm Medium-Fast",
-    "price": "$130,000"
+    "price": "130000"
   },
   {
     "player_img": "https://i.ibb.co.com/HfYcgjLK/David-Warner.webp",
@@ -88,7 +88,7 @@
     "rating": 9.3,
     "batting_style": "Left-Hand Bat",
     "bowling_style": "Right-Arm Legbreak",
-    "price": "$145,000"
+    "price": "145000"
   },
   {
     "player_img": "https://i.ibb.co.com/pBD4Hq2G/Rashid-Khan.png",
@@ -98,6 +98,6 @@
     "rating": 9.4,
     "batting_style": "Right-Hand Bat",
     "bowling_style": "Right-Arm Legbreak Googly",
-    "price": "$155,000"
+    "price": "155000"
   }
 ]
