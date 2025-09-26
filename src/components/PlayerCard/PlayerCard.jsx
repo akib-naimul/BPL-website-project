@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-const PlayerCard = ({player, setavailableBalance, availableBalance}) => {
+const PlayerCard = ({player, setavailableBalance, availableBalance, purchasedPlayers, setPurchasedPlayers}) => {
     const [isSelected, setIsSelected]= useState(false)
 
     const handleSelected = (playerData) =>{
@@ -11,6 +11,7 @@ const PlayerCard = ({player, setavailableBalance, availableBalance}) => {
         }
          setIsSelected(true);setavailableBalance(availableBalance - playerPrice
          )
+         setPurchasedPlayers([...purchasedPlayers,playerData])
     }
     return (
              <div className="card bg-base-100 shadow-sm p-4">

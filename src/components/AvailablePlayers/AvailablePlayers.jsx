@@ -1,12 +1,12 @@
 import React, { use } from 'react';
 import PlayerCard from '../PlayerCard/PlayerCard';
 
-const AvailablePlayers = ({playersPromise, setavailableBalance, availableBalance}) => {
+const AvailablePlayers = ({playersPromise, setavailableBalance, availableBalance, purchasedPlayers, setPurchasedPlayers}) => {
     const playerData = use(playersPromise)
     return (
         <div className='max-w-[1200px] mx-auto grid grid-cols-1 md:grid-cols-3 gap-4'>
             {
-                playerData.map(player=> <PlayerCard availableBalance={availableBalance} setavailableBalance={setavailableBalance} player={player}></PlayerCard>)
+                playerData.map(player=> <PlayerCard purchasedPlayers={purchasedPlayers} setPurchasedPlayers={setPurchasedPlayers} availableBalance={availableBalance} setavailableBalance={setavailableBalance} player={player}></PlayerCard>)
             }
         </div>
         
