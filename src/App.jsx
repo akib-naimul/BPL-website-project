@@ -1,5 +1,5 @@
 
-import { Suspense } from 'react'
+import { Suspense, useState } from 'react'
 import './App.css'
 
 import AvailablePlayers from './components/AvailablePlayers/AvailablePlayers'
@@ -12,6 +12,8 @@ const fetchPlayers = async () =>{
 }
 
 function App() {
+  const [toggle, setToggle] = useState(true)
+
   const playersPromise = fetchPlayers()
   
 
@@ -28,13 +30,17 @@ function App() {
        </div>
 
     </div>
-       
-    <Suspense fallback={<span className="loading loading-bars loading-xl"></span>}>
+
+    {
+      toggle === true ? <Suspense fallback={<span className="loading loading-bars loading-xl"></span>}>
       <AvailablePlayers playersPromise={playersPromise} ></AvailablePlayers>
-    </Suspense>
+    </Suspense> : <SelectedPlayers></SelectedPlayers>
+    }
+       
+    
 
 
-    <SelectedPlayers></SelectedPlayers>
+    
     </>
   )
 }
