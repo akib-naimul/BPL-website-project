@@ -1,0 +1,103 @@
+
+[
+  {
+    "player_img": "https://i.ibb.co.com/Q30sdYpX/sakib.jpg",
+    "player_name": "Shakib Al Hasan",
+    "player_country": "Bangladesh",
+    "playing_role": "All-Rounder",
+    "rating": 9.5,
+    "batting_style": "Left-Hand Bat",
+    "bowling_style": "Slow Left-Arm Orthodox",
+    "price": "$120,000"
+  },
+  {
+    "player_img": "https://i.ibb.co.com/MxvXdPtd/mustafizur.webp",
+    "player_name": "Mustafizur Rahman",
+    "player_country": "Bangladesh",
+    "playing_role": "Bowler",
+    "rating": 8.7,
+    "batting_style": "Left-Hand Bat",
+    "bowling_style": "Left-Arm Fast-Medium",
+    "price": "$90,000"
+  },
+  {
+    "player_img": "https://i.ibb.co.com/rr4cP8G/tamim.webp",
+    "player_name": "Tamim Iqbal",
+    "player_country": "Bangladesh",
+    "playing_role": "Batsman",
+    "rating": 8.9,
+    "batting_style": "Left-Hand Bat",
+    "bowling_style": "Right-Arm Offbreak",
+    "price": "$100,000"
+  },
+  {
+    "player_img": "https://i.ibb.co.com/RkmHFmx3/mashrafe.webp",
+    "player_name": "Mashrafe Mortaza",
+    "player_country": "Bangladesh",
+    "playing_role": "Bowler",
+    "rating": 8.2,
+    "batting_style": "Right-Hand Bat",
+    "bowling_style": "Right-Arm Medium-Fast",
+    "price": "$80,000"
+  },
+  {
+    "player_img": "https://i.ibb.co.com/LD7jSyYr/Andre-Russell.jpg",
+    "player_name": "Andre Russell",
+    "player_country": "West Indies",
+    "playing_role": "All-Rounder",
+    "rating": 9.6,
+    "batting_style": "Right-Hand Bat",
+    "bowling_style": "Right-Arm Fast",
+    "price": "$150,000"
+  },
+  {
+    "player_img": "https://i.ibb.co.com/ZRW8VGmY/Chris-Gayle.jpg",
+    "player_name": "Chris Gayle",
+    "player_country": "West Indies",
+    "playing_role": "Batsman",
+    "rating": 9.1,
+    "batting_style": "Left-Hand Bat",
+    "bowling_style": "Right-Arm Offbreak",
+    "price": "$140,000"
+  },
+  {
+    "player_img": "https://i.ibb.co.com/zVdpXHvX/AB-de-Villiers.webp",
+    "player_name": "AB de Villiers",
+    "player_country": "South Africa",
+    "playing_role": "Batsman",
+    "rating": 9.7,
+    "batting_style": "Right-Hand Bat",
+    "bowling_style": "Right-Arm Medium",
+    "price": "$160,000"
+  },
+  {
+    "player_img": "https://i.ibb.co.com/PGbtDDSw/Kieron-Pollard.jpg",
+    "player_name": "Kieron Pollard",
+    "player_country": "West Indies",
+    "playing_role": "All-Rounder",
+    "rating": 9.0,
+    "batting_style": "Right-Hand Bat",
+    "bowling_style": "Right-Arm Medium-Fast",
+    "price": "$130,000"
+  },
+  {
+    "player_img": "https://i.ibb.co.com/HfYcgjLK/David-Warner.webp",
+    "player_name": "David Warner",
+    "player_country": "Australia",
+    "playing_role": "Batsman",
+    "rating": 9.3,
+    "batting_style": "Left-Hand Bat",
+    "bowling_style": "Right-Arm Legbreak",
+    "price": "$145,000"
+  },
+  {
+    "player_img": "https://i.ibb.co.com/pBD4Hq2G/Rashid-Khan.png",
+    "player_name": "Rashid Khan",
+    "player_country": "Afghanistan",
+    "playing_role": "Bowler",
+    "rating": 9.4,
+    "batting_style": "Right-Hand Bat",
+    "bowling_style": "Right-Arm Legbreak Googly",
+    "price": "$155,000"
+  }
+]
