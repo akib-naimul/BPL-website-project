@@ -5,6 +5,7 @@ import './App.css'
 import AvailablePlayers from './components/AvailablePlayers/AvailablePlayers'
 import Navbar from './components/Navbar/Navbar'
 import SelectedPlayers from './components/SelectedPlayers/SelectedPlayers'
+import { ToastContainer } from 'react-toastify';
 
 const fetchPlayers = async () =>{
   const res = await fetch("/players.json")
@@ -48,7 +49,7 @@ function App() {
     }
        
     
-
+  <ToastContainer />
 
     
     </>
