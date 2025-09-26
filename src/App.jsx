@@ -20,7 +20,11 @@ function App() {
 
   const [purchasedPlayers, setPurchasedPlayers] = useState([])
 
-  
+  const removePlayer = (p) =>{
+    const filteredData = purchasedPlayers.filter(playerBoy => playerBoy.player_name !== p.player_name)
+    setPurchasedPlayers(filteredData)
+
+  }
   
 
   return (
@@ -31,8 +35,8 @@ function App() {
       <h1 className='font-bold text-2xl'>{toggle === true?"Available Players": `Selected Players(${purchasedPlayers.length}/6)`}</h1>
 
        <div>
-        <button onClick={()=>setToggle(true)} className={`py-3 px-4 border-l border-grey-400 rounded-l-2xl border-r-0 ${toggle === true?" bg-amber-950":""}`}>Available <span>(0)</span></button>
-        <button onClick={()=>setToggle(false)} className={`py-3 px-4 border-l border-grey-400 rounded-l-2xl border-l-0 ${toggle === false?" bg-amber-950":""}`}>Selected</button>
+        <button onClick={()=>setToggle(true)} className={`py-3 px-4 border-l border-grey-400 rounded-l-2xl border-r-0 ${toggle === true?" bg-amber-950":""}`}>Available </button>
+        <button onClick={()=>setToggle(false)} className={`py-3 px-4 border-l border-grey-400 rounded-l-2xl border-l-0 ${toggle === false?" bg-amber-950":""}`}>Selected <span>({purchasedPlayers.length})</span></button>
        </div>
 
     </div>
@@ -40,7 +44,7 @@ function App() {
     {
       toggle === true ? <Suspense fallback={<span className="loading loading-bars loading-xl"></span>}>
       <AvailablePlayers purchasedPlayers={purchasedPlayers} setPurchasedPlayers={setPurchasedPlayers} availableBalance={availableBalance} setavailableBalance={setavailableBalance} playersPromise={playersPromise} ></AvailablePlayers>
-    </Suspense> : <SelectedPlayers purchasedPlayers={purchasedPlayers}></SelectedPlayers>
+    </Suspense> : <SelectedPlayers removePlayer={removePlayer} purchasedPlayers={purchasedPlayers}></SelectedPlayers>
     }
        
     
